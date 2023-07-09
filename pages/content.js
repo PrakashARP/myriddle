@@ -147,6 +147,7 @@ const RiddlesCard = () => {
                     >
                       {isAnswerVisible ? 'Hide the answer' : 'Show the answer'}
                     </Button>
+                    {/* Don't Delete */}
                     {/* <div>
                       <Button onClick={() => handleLike(dataIndex)}>
                         Like ({likeCount})
